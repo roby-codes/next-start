@@ -7,5 +7,5 @@ export const appData: AppData = {
     link: "https://github.com/roby-codes",
   },
   keywords: ["web app", "web site", "robert kovacs"],
-  brandColor: "#007BFF",
+  brandColor: "#FFFFFF",
 };

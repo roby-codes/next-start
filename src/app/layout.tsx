@@ -11,11 +11,7 @@ export const metadata = getSeoTags();
 
 export const viewport = getViewport();
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
