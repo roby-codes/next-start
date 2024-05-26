@@ -7,4 +7,5 @@ type AppData = {
     link: string;
   };
   keywords: string[];
+  brandColor: string;
 };
