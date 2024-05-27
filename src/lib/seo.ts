@@ -19,14 +19,14 @@ export const getSeoTags = (params: Partial<AppData> = appData): Metadata => {
       type: "website",
       locale: "en",
       url: new URL(app.domain),
-      images: `${app.domain}/seo/image.jpg`,
+      images: `${app.domain}/seo/thumbnail.jpg`,
     },
     twitter: {
       card: "summary_large_image",
       title: app.name,
       description: app.description,
       site: app.domain,
-      images: `${app.domain}/seo/image.jpg`,
+      images: `${app.domain}/seo/thumbnail.jpg`,
     },
   };
 };
