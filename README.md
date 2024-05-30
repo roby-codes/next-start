@@ -9,6 +9,7 @@ Starter template for quickly setting up your Next.js apps with pre-configured se
 ![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-000000?logo=shadcnui)
 ![Zod](https://img.shields.io/badge/Zod-000000?logo=zod)
 ![T3_Env](https://img.shields.io/badge/T3_Env-000000?logo=dotenv)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-000000?logo=framer)
 
 ###### Pre-configured useful settings 👇
 
@@ -19,6 +20,7 @@ Starter template for quickly setting up your Next.js apps with pre-configured se
 | ✅        | **Basic + Open Graph + Twitter SEO** | All the important SEO tags generated automatically thorough the [`getSeoTags()`](/src/lib/seo.ts) function. |
 | ✅        | **Prettier TailwindCSS**             | TailwindCSS plugin added to re-order your TailwindCSS variables in an optimal way automatically on save.    |
 | ✅        | **T3 Env**                           | Fix most of the common issues related to your environment variables.                                        |
+| ✅        | **Framer Motion**                    | Easy web animations for your web application.                                                               |
 | -         | **More Feature**                     | Coming Soon...                                                                                              |
 
 #### How to setup this template with your own configuration?
