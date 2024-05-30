@@ -1,18 +1,7 @@
-import { motion } from "framer-motion";
+import { PageTransition } from "~/components/page-transition";
+
 const Template = ({ children }: RootLayoutProps) => (
-  <motion.div
-    initial={{
-      opacity: 0,
-    }}
-    animate={{
-      opacity: 1,
-    }}
-    transition={{
-      duration: 0.5,
-    }}
-  >
-    {children}
-  </motion.div>
+  <PageTransition>{children}</PageTransition>
 );
 
 export default Template;
