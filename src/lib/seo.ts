@@ -3,6 +3,7 @@ import { appData } from "~/config/app.config";
 
 export const getSeoTags = (params: Partial<AppData> = appData): Metadata => {
   const app = { ...appData, ...params };
+  const key = Math.random();
 
   return {
     metadataBase: new URL(app.domain),
@@ -19,14 +20,14 @@ export const getSeoTags = (params: Partial<AppData> = appData): Metadata => {
       type: "website",
       locale: "en",
       url: new URL(app.domain),
-      images: `${app.domain}/seo/thumbnail.jpg`,
+      images: `${app.domain}/seo/thumbnail.jpg?key=${key}`,
     },
     twitter: {
       card: "summary_large_image",
       title: app.name,
       description: app.description,
       site: app.domain,
-      images: `${app.domain}/seo/thumbnail.jpg`,
+      images: `${app.domain}/seo/thumbnail.jpg?key=${key}`,
     },
   };
 };
