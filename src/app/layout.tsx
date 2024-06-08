@@ -7,7 +7,7 @@ import { getSeoTags, getViewport } from "~/lib/seo";
 
 const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
 
-export const metadata = getSeoTags();
+export const metadata = getSeoTags({ slug: "/" });
 
 export const viewport = getViewport();
 

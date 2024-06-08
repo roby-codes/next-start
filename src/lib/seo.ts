@@ -8,7 +8,7 @@ export const getSeoTags = (params: Partial<AppData> = appData): Metadata => {
   return {
     metadataBase: new URL(app.domain),
     alternates: {
-      canonical: app.domain,
+      canonical: `${app.domain}${params.slug}`,
     },
     applicationName: app.name,
     title: app.name,
