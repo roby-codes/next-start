@@ -6,7 +6,9 @@ export const env = createEnv({
    * Specify your server-side environment variables schema here. This way you can ensure the app
    * isn't built with invalid env vars.
    */
-  server: {},
+  server: {
+    DOMAIN: z.string().min(1),
+  },
 
   /**
    * Specify your client-side environment variables schema here. This way you can ensure the app
@@ -19,7 +21,9 @@ export const env = createEnv({
    * You can't destruct `process.env` as a regular object in the Next.js edge runtimes (e.g.
    * middlewares) or client-side so we need to destruct manually.
    */
-  runtimeEnv: {},
+  runtimeEnv: {
+    DOMAIN: process.env.DOMAIN,
+  },
 
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially
