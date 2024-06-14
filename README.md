@@ -21,6 +21,8 @@ Starter template for quickly setting up your Next.js apps with pre-configured se
 | ✅        | **Prettier TailwindCSS**             | TailwindCSS plugin added to re-order your TailwindCSS variables in an optimal way automatically on save.    |
 | ✅        | **T3 Env**                           | Fix most of the common issues related to your environment variables.                                        |
 | ✅        | **Framer Motion**                    | Easy web animations for your web application.                                                               |
+| ✅        | **Docker**                           | Dockerfile and .dockerignore to build performant containers for next.js.                                    |
+| ✅        | **React Icons**                      | Easy to integrate svg icons for your web application.                                                       |
 | -         | **More Feature**                     | Coming Soon...                                                                                              |
 
 #### How to setup this template with your own configuration?
